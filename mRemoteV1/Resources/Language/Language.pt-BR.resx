@@ -120,6 +120,12 @@
   <data name="strAbout" xml:space="preserve">
     <value>Sobre</value>
   </data>
+  <data name="strPropertyNamePuttySession" xml:space="preserve">
+    <value>Sessão de puTTY</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
+  </data>
   <data name="strActive" xml:space="preserve">
     <value>Ativo</value>
   </data>

@@ -1627,6 +1627,9 @@ PuTTY ve harici araçlar için en fazla bekleme süresi:</value>
 	<data name="strPropertyDescriptionPuttySession" xml:space="preserve">
 		<value>Bağlanırken kullanılacak bir PuTTY oturumu seçin.</value>
 	</data>
+    <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+        <value>Putty key override for sessions</value>
+    </data>
 	<data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
 		<value>Bir kullanıcının RD Ağ Geçidi sunucusuna bağlanmak için sağladığı alan adını belirtir.</value>
 	</data>
@@ -1771,6 +1774,9 @@ PuTTY ve harici araçlar için en fazla bekleme süresi:</value>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
 		<value>PuTTY Oturumu</value>
 	</data>
+	<data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
+  </data>
 	<data name="strPropertyNameRDGatewayPassword" xml:space="preserve">
 		<value>Uzak Masaüstü Gateway Parolası</value>
 	</data>

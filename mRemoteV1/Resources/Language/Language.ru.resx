@@ -1284,6 +1284,9 @@
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>Выберите сессию PuTTY, которая будет использоваться при подключении.</value>
   </data>
+  <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+    <value>Putty key override for sessions</value>
+  </data>
   <data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>Определите доменное имя, для подключения к шлюзу Служб терминалов</value>
   </data>
@@ -1433,6 +1436,9 @@
   </data>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>Сессии PuTTY</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
   </data>
   <data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
     <value>Шлюз Домена</value>

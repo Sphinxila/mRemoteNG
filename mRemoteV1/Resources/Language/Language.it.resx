@@ -1262,6 +1262,9 @@ Visualizza il supporto Microsoft http://support.microsoft.com/kb/811833/it per o
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>Seleziona una sessione PuTTY da utilizzare per la connessione.</value>
   </data>
+  <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+    <value>Putty key override for sessions</value>
+  </data>
   <data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>Indica il nome di dominio che l'utente fornisce per connettersi al server gateway RDP.</value>
   </data>
@@ -1411,6 +1414,9 @@ Visualizza il supporto Microsoft http://support.microsoft.com/kb/811833/it per o
   </data>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>Sessione PuTTY</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
   </data>
   <data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
     <value>Dominio del gateway</value>

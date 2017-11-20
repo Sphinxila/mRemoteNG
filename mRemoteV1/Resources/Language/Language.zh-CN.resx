@@ -1266,6 +1266,9 @@ VncSharp 版本 {0}</value>
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>请选择连接时所使用的 PuTTY 会话。</value>
   </data>
+  <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+    <value>Putty key override for sessions</value>
+  </data>
   <data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>请指定远程桌面网关服务器的域名。</value>
   </data>
@@ -1412,6 +1415,9 @@ VncSharp 版本 {0}</value>
   </data>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>PuTTY会话</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
   </data>
   <data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
     <value>网关域名</value>

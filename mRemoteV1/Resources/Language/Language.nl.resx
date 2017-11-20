@@ -1278,6 +1278,9 @@ Als dergelijke problemen voorkomen maak dan een nieuwe verbindings bestand aan!<
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>Selecteer een PuTTY sessie welke wordt gebruikt bij het verbinden.</value>
   </data>
+  <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+    <value>Putty key override for sessions</value>
+  </data>
   <data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>Hiermee geeft u de domeinnaam op die een gebruiker geeft om verbinding te maken naar de RD-gateway-server.</value>
   </data>
@@ -1427,6 +1430,9 @@ Als dergelijke problemen voorkomen maak dan een nieuwe verbindings bestand aan!<
   </data>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>PuTTY Sessie</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
   </data>
   <data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
     <value>Gateway Domein</value>

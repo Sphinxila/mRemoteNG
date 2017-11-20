@@ -171,6 +171,9 @@
   <data name="strThemeDescriptionMenuTextColor" xml:space="preserve">
     <value>The color of the text in the menus.</value>
   </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
+  </data>
   <data name="strThemeDescriptionSearchBoxBackgroundColor" xml:space="preserve">
     <value>The background color of the search box.</value>
   </data>

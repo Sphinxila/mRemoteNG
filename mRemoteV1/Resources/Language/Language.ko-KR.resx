@@ -1580,6 +1580,9 @@ VncSharp 제어 버전 {0}</value>
 	<data name="strPropertyDescriptionPuttySession" xml:space="preserve">
 		<value>연결시 사용할 PuTTY 세션 선택.</value>
 	</data>
+	<data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+	    <value>Putty key override for sessions</value>
+	</data>
 	<data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
 		<value>사용자가 RD 게이트웨이 서버에 연결하기 위해 제공하는 도메인 이름 지정.</value>
 	</data>
@@ -1736,6 +1739,9 @@ VncSharp 제어 버전 {0}</value>
 	<data name="strPropertyNamePuttySession" xml:space="preserve">
 		<value>PuTTY 세션</value>
 	</data>
+	<data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
+  </data>
 	<data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
 		<value>게이트웨이 도메인</value>
 	</data>

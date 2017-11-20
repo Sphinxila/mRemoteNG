@@ -215,6 +215,7 @@ namespace mRemoteNG.Config.Serializers
             dataRow["Hostname"] = connectionInfo.Hostname;
             dataRow["Protocol"] = connectionInfo.Protocol;
             dataRow["PuttySession"] = connectionInfo.PuttySession;
+            dataRow["PuttyKey"] = connectionInfo.PuttyKey;
             dataRow["Port"] = connectionInfo.Port;
             dataRow["ConnectToConsole"] = connectionInfo.UseConsoleSession;
             dataRow["UseCredSsp"] = connectionInfo.UseCredSsp;

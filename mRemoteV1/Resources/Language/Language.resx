@@ -1445,6 +1445,9 @@ If you run into such an error, please create a new connection file!</value>
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>Select a PuTTY session to be used when connecting.</value>
   </data>
+  <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+    <value>Putty key override for sessions</value>
+  </data>
   <data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>Specifies the domain name that a user provides to connect to the RD Gateway server.</value>
   </data>
@@ -1600,6 +1603,9 @@ If you run into such an error, please create a new connection file!</value>
   </data>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>PuTTY Session</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
   </data>
   <data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
     <value>Gateway Domain</value>

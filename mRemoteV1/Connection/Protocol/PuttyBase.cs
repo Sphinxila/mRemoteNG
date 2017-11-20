@@ -46,23 +46,35 @@ namespace mRemoteNG.Connection.Protocol
         #region Public Methods
 		public override bool Connect()
 		{
-			try
+            string wcd = System.IO.Path.GetDirectoryName(Runtime.ConnectionsService.ConnectionFileName);
+            try
 			{
 				_isPuttyNg = PuttyTypeDetector.GetPuttyType() == PuttyTypeDetector.PuttyType.PuttyNg;
 
-			    PuttyProcess = new Process
+                // Process start info
+                ProcessStartInfo i;
+                i.UseShellExecute = false;
+                i.FileName = PuttyPath;
+
+                // Putty key
+                if (InterfaceControl.Info.PuttyKey.Length > 0) {
+                    i.WorkingDirectory = wcd;
+                }
+
+                // Spawn process manager
+                PuttyProcess = new Process
 			    {
-			        StartInfo =
-			        {
-			            UseShellExecute = false,
-			            FileName = PuttyPath
-			        }
-			    };
+			        StartInfo = i
+                };
 
 			    var arguments = new CommandLineArguments {EscapeForShell = false};
 
 			    arguments.Add("-load", InterfaceControl.Info.PuttySession);
-						
+				if (InterfaceControl.Info.PuttyKey.Length > 0) {
+                    arguments.Add("-i ", InterfaceControl.Info.PuttyKey);
+                }
+
+
 				if (!(InterfaceControl.Info is PuttySessionInfo))
 				{
 					arguments.Add("-" + PuttyProtocol);

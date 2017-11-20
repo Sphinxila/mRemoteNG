@@ -65,6 +65,7 @@ namespace mRemoteNG.Config.Serializers
             element.Add(new XAttribute("Hostname", connectionInfo.Hostname));
             element.Add(new XAttribute("Protocol", connectionInfo.Protocol));
             element.Add(new XAttribute("PuttySession", connectionInfo.PuttySession));
+            element.Add(new XAttribute("PuttyKey", connectionInfo.PuttyKey));
             element.Add(new XAttribute("Port", connectionInfo.Port));
             element.Add(new XAttribute("ConnectToConsole", connectionInfo.UseConsoleSession.ToString()));
             element.Add(new XAttribute("UseCredSsp", connectionInfo.UseCredSsp.ToString()));
@@ -150,6 +151,7 @@ namespace mRemoteNG.Config.Serializers
                 element.Add(new XAttribute("InheritPort", connectionInfo.Inheritance.Port.ToString()));
                 element.Add(new XAttribute("InheritProtocol", connectionInfo.Inheritance.Protocol.ToString()));
                 element.Add(new XAttribute("InheritPuttySession", connectionInfo.Inheritance.PuttySession.ToString()));
+                element.Add(new XAttribute("InheritPuttyKey", connectionInfo.Inheritance.PuttyKey.ToString()));
                 element.Add(new XAttribute("InheritRedirectDiskDrives", connectionInfo.Inheritance.RedirectDiskDrives.ToString()));
                 element.Add(new XAttribute("InheritRedirectKeys", connectionInfo.Inheritance.RedirectKeys.ToString()));
                 element.Add(new XAttribute("InheritRedirectPorts", connectionInfo.Inheritance.RedirectPorts.ToString()));
@@ -207,6 +209,7 @@ namespace mRemoteNG.Config.Serializers
                 element.Add(new XAttribute("InheritPort", false.ToString()));
                 element.Add(new XAttribute("InheritProtocol", false.ToString()));
                 element.Add(new XAttribute("InheritPuttySession", false.ToString()));
+                element.Add(new XAttribute("InheritPuttyKey", false.ToString()));
                 element.Add(new XAttribute("InheritRedirectDiskDrives", false.ToString()));
                 element.Add(new XAttribute("InheritRedirectKeys", false.ToString()));
                 element.Add(new XAttribute("InheritRedirectPorts", false.ToString()));

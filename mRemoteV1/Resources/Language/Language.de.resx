@@ -1279,6 +1279,9 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>Wählen Sie eine PuTTY-Sitzung, die bei Verbindung verwendet werden soll.</value>
   </data>
+  <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+    <value>Αντικατάσταση κλειδιού Putty για συνεδρίες</value>
+  </data>
   <data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>Gibt den Domänennamen an, der für die Verbindung zum Gateway-Server verwendet werden soll.</value>
   </data>
@@ -1428,6 +1431,9 @@ Wenn Sie Fehler feststellen, dann sollten Sie eine neue Verbindungsdatei erstell
   </data>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>PuTTY-Sitzung</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY-Schlüssel</value>
   </data>
   <data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
     <value>Gateway-Domäne</value>

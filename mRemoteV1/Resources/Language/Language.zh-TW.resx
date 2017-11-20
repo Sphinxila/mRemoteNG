@@ -1245,6 +1245,9 @@ VncSharp Control 版本 {0}</value>
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>選取連線時所用的 PuTTY 工作階段。</value>
   </data>
+  <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+    <value>Putty key override for sessions</value>
+  </data>
   <data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>指定使用者提供連線到 RD Gateway 伺服器的網域名稱。</value>
   </data>
@@ -1394,6 +1397,9 @@ VncSharp Control 版本 {0}</value>
   </data>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>PuTTY 工作階段</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
   </data>
   <data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
     <value>閘道網域</value>

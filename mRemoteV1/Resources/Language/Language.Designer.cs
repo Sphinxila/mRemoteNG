@@ -1110,7 +1110,16 @@ namespace mRemoteNG {
                 return ResourceManager.GetString("strColumnHostnameIP", resourceCulture);
             }
         }
-        
+
+        internal static string strColumnKeyPath
+        {
+            get
+            {
+                return "Key Path";
+            }
+        }
+
+
         /// <summary>
         ///   Looks up a localized string similar to Message.
         /// </summary>

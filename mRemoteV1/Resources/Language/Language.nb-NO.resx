@@ -132,6 +132,12 @@
   <data name="strAddFolder" xml:space="preserve">
     <value>Ny mappe</value>
   </data>
+  <data name="strPropertyNamePuttySession" xml:space="preserve">
+    <value>Sessão de puTTY</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
+  </data>
   <data name="strAddNodeFromXmlFailed" xml:space="preserve">
     <value>AddNodeFromXML mislyktes!</value>
   </data>
@@ -1276,6 +1282,9 @@ Se Microsoft Support-artikkelen på http://support.microsoft.com/kb/811833 for m
   </data>
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>Velg en PuTTY-sesjon som skal brukes ved tilkobling.</value>
+  </data>
+  <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+    <value>Putty key override for sessions</value>
   </data>
   <data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>Angir navnet på domenet som brukeren oppgir for å koble til RD Gateway-serveren.</value>

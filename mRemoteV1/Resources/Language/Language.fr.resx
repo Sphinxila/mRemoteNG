@@ -1260,6 +1260,9 @@ Si vous rencontrez une erreur, créez un nouveau fichier de connexion s'il vous 
   <data name="strPropertyDescriptionPuttySession" xml:space="preserve">
     <value>Sélectionnez une session PuTTY à utiliser lors de la connexion.</value>
   </data>
+  <data name="strPropertyDescriptionPuttyKey" xml:space="preserve">
+    <value>Putty key override for sessions</value>
+  </data>
   <data name="strPropertyDescriptionRDGatewayDomain" xml:space="preserve">
     <value>Spécifie le nom de domaine fourni par l'utilisateur pour se connecter au serveur RD Gateway.</value>
   </data>
@@ -1409,6 +1412,9 @@ Si vous rencontrez une erreur, créez un nouveau fichier de connexion s'il vous 
   </data>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>Session PuTTY</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
   </data>
   <data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
     <value>Domaine de la Passerelle</value>

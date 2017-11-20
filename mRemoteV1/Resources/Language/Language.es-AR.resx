@@ -132,6 +132,12 @@
   <data name="strButtonIcon" xml:space="preserve">
     <value>Icono</value>
   </data>
+  <data name="strPropertyNamePuttySession" xml:space="preserve">
+    <value>Sessão de puTTY</value>
+  </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
+  </data>
   <data name="strButtonLaunchPutty" xml:space="preserve">
     <value>Ejecutar PuTTY</value>
   </data>

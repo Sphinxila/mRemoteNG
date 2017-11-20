@@ -1260,6 +1260,9 @@ Załadowano nowy plik połączeń.</value>
   <data name="strPropertyNamePuttySession" xml:space="preserve">
     <value>Sesja PuTTY</value>
   </data>
+  <data name="strPropertyNamePuttyKey" xml:space="preserve">
+    <value>PuTTY Key</value>
+  </data>
   <data name="strPropertyNameRDGatewayDomain" xml:space="preserve">
     <value>Domena bramy</value>
   </data>

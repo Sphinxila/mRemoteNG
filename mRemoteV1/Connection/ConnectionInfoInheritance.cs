@@ -80,8 +80,14 @@ namespace mRemoteNG.Connection
 		LocalizedAttributes.LocalizedDisplayNameInheritAttribute("strPropertyNamePuttySession"), 
 		LocalizedAttributes.LocalizedDescriptionInheritAttribute("strPropertyDescriptionPuttySession"), 
 		TypeConverter(typeof(MiscTools.YesNoTypeConverter))]public bool PuttySession {get; set;}
-				
-		[LocalizedAttributes.LocalizedCategory("strCategoryProtocol", 4), 
+
+        [LocalizedAttributes.LocalizedCategory("strCategoryProtocol", 4),
+        LocalizedAttributes.LocalizedDisplayNameInheritAttribute("strPropertyNamePuttyKey"),
+        LocalizedAttributes.LocalizedDescriptionInheritAttribute("strPropertyDescriptionPuttyKey"), // PuttyKey
+        TypeConverter(typeof(MiscTools.YesNoTypeConverter))]public bool PuttyKey {get; set;}
+
+
+        [LocalizedAttributes.LocalizedCategory("strCategoryProtocol", 4), 
 		LocalizedAttributes.LocalizedDisplayNameInheritAttribute("strPropertyNameEncryptionStrength"), 
 		LocalizedAttributes.LocalizedDescriptionInheritAttribute("strPropertyDescriptionEncryptionStrength"), 
 		TypeConverter(typeof(MiscTools.YesNoTypeConverter))]public bool ICAEncryptionStrength {get; set;}

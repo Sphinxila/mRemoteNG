@@ -27,7 +27,7 @@ namespace mRemoteNG.Config.Serializers
         private double _confVersion;
         private XmlConnectionsDecryptor _decryptor;
         private string ConnectionFileName = "";
-        private const double MaxSupportedConfVersion = 2.8;
+        private const double MaxSupportedConfVersion = 3.0;
         private readonly RootNodeInfo _rootNodeInfo = new RootNodeInfo(RootNodeType.Connection);
 
         public Func<SecureString> AuthenticationRequestor { get; set; }
@@ -304,6 +304,11 @@ namespace mRemoteNG.Config.Serializers
                 {
                     connectionInfo.PuttySession = xmlnode.Attributes["PuttySession"].Value;
                 }
+
+                if (_confVersion >= 3.0)
+                {
+                    connectionInfo.PuttyKey = xmlnode.Attributes["PuttyKey"].Value;
+                } 
 
                 if (_confVersion >= 1.3)
                 {
