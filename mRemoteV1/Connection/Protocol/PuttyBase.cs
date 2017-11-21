@@ -52,7 +52,7 @@ namespace mRemoteNG.Connection.Protocol
 				_isPuttyNg = PuttyTypeDetector.GetPuttyType() == PuttyTypeDetector.PuttyType.PuttyNg;
 
                 // Process start info
-                ProcessStartInfo i;
+                ProcessStartInfo i = new ProcessStartInfo();
                 i.UseShellExecute = false;
                 i.FileName = PuttyPath;
 
