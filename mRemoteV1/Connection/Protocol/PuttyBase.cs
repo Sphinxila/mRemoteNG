@@ -71,7 +71,7 @@ namespace mRemoteNG.Connection.Protocol
 
 			    arguments.Add("-load", InterfaceControl.Info.PuttySession);
 				if (InterfaceControl.Info.PuttyKey.Length > 0) {
-                    arguments.Add("-i ", InterfaceControl.Info.PuttyKey);
+                    arguments.Add("-i", InterfaceControl.Info.PuttyKey);
                 }
 
 
